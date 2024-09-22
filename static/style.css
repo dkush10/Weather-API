@@ -1,0 +1,121 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0;
+
+    h1 {
+        font-size: 2rem;
+        font-family: "Bona Nova SC", serif;
+    }
+}
+
+.weather {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 20px 20px;
+    box-shadow: 1px 1px 8px -3px;
+    border-radius: 10px;
+
+    label {
+        display: block;
+        font-size: 2rem;
+        margin: 10px 0px;
+    }
+
+    input {
+        font-size: 1.5rem;
+    }
+
+    .wsubmit {
+        #submit {
+            margin-top: 10px;
+            background-color: rgb(25, 148, 14);
+            color: white;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            border: none;
+            padding: 4px 8px;
+        }
+    }
+}
+
+.weatherdata {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 1px 1px 8px -3px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    padding-bottom: 30px;
+    margin-top: 2rem;
+
+    .temperature {
+        width: 60%;
+        margin: auto;
+        background-color: white;
+        box-shadow: 1px 1px 8px -3px;
+        border-radius: 10px;
+        padding: 10px 10px;
+
+        h1 {
+            font-family: "Kalam", cursive;
+        }
+
+        h3 {
+            font-family: "Comfortaa", sans-serif;
+            font-weight: 900;
+        }
+    }
+
+    .data {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 1rem;
+        background-color: white;
+        box-shadow: 1px 1px 8px -3px;
+        border-radius: 10px;
+        padding: 10px 10px;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 1.2rem;
+
+        .cor {
+            width: 33%;
+            text-align: center;
+
+        }
+
+        .wea {
+            width: 33%;
+        }
+
+        .main {
+            width: 33%;
+        }
+    }
+
+    .homebutton {
+        margin-top: 30px;
+
+        a {
+            button {
+                font-family: "Comfortaa", sans-serif;
+                font-size: 1.2rem;
+                border: none;
+                border-radius: 5px;
+                padding: 6px 10px;
+                background-color: rgb(54, 44, 251);
+                color: white;
+            }
+        }
+    }
+
+}
